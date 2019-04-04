@@ -1,7 +1,15 @@
 <?php
 
-?>
+    $flavorsNames = array("grasshopper" => "The Grasshopper",
+                         "maple" => "Whiskey Maple Bacon",
+                         "carrots" => "Carrot Walnut",
+                         "carmel" => "Salted Carmel",
+                         "velvet" => "Red Velvet",
+                         "lemon" => "Lemon Drops",
+                         "tiramisu" => "Tiramisu");
 
+?>
+<!-- This is how the form should look before the php. -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +27,7 @@
             <input type="text" name="name" placeholder="Please input your name.">
             <p>Cupcake flavors:</p>
             <input type="checkbox" name="flavors[]">
-            <ol>
+            <ul>
                 <li name="flavors[]" value="grasshopper">The Grasshopper</li>
                 <li name="flavors[]" value="maple">Whiskey Maple Bacon</li>
                 <li name="flavors[]" value="carrots">Carrot Walnut</li>
@@ -27,7 +35,7 @@
                 <li name="flavors[]" value="velvet">Red Velvet</li>
                 <li name="flavors[]" value="lemon">Lemon Drop</li>
                 <li name="flavors[]" value="tiramisu">Tiramisu</li>
-            </ol>
+            </ul>
             <input type="submit" value="Order">
         </form>
     </div>
