@@ -20,13 +20,13 @@
             <p>Cupcake flavors:</p>
             <input type="checkbox" name="flavors[]">
             <ol>
-                <li name="flavors" value="grasshopper">The Grasshopper</li>
-                <li name="flavors" value="maple">Whiskey Maple Bacon</li>
-                <li name="flavors" value="carrots">Carrot Walnut</li>
-                <li name="flavors" value="caramel">Salted Caramel</li>
-                <li name="flavors" value="velvet">Red Velvet</li>
-                <li name="flavors" value="lemon">Lemon Drop</li>
-                <li name="flavors" value="tiramisu">Tiramisu</li>
+                <li name="flavors[]" value="grasshopper">The Grasshopper</li>
+                <li name="flavors[]" value="maple">Whiskey Maple Bacon</li>
+                <li name="flavors[]" value="carrots">Carrot Walnut</li>
+                <li name="flavors[]" value="caramel">Salted Caramel</li>
+                <li name="flavors[]" value="velvet">Red Velvet</li>
+                <li name="flavors[]" value="lemon">Lemon Drop</li>
+                <li name="flavors[]" value="tiramisu">Tiramisu</li>
             </ol>
             <input type="submit" value="Order">
         </form>
