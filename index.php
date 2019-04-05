@@ -1,6 +1,7 @@
 <?php
 
 
+
     $flavorsNames = array("grasshopper" => "The Grasshopper",
                          "maple" => "Whiskey Maple Bacon",
                          "carrots" => "Carrot Walnut",
@@ -12,7 +13,7 @@
     function makeForm($array){
 
         foreach ($array as $key => $value){
-            echo "<input type=\"checkbox\" name=\"$key\" value=\"$value\"><br>";
+            echo "<input type=\"checkbox\" name=\"flavors\" value=\"$key\">$value<br>";
         }
 
     };
@@ -37,6 +38,7 @@
             <p>Cupcake flavors:</p>
             <?php
                 makeForm($flavorsNames);
+                echo "<br>";
             ?>
             <input type="submit" value="Order">
         </form>
